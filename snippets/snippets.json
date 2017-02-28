@@ -4,5 +4,17 @@
 		"body": "\n<div class=\"card\">\n\t<div class=\"card__content\">$1</div>\n</div>\n",
 		"description": "Card component",
 		"scope": ""
-	}
+	},
+    "tent-grid": {
+		"prefix": "tent-grid",
+		"body": "\n<div class=\"grid\">\n\t$1\n</div>\n",
+		"description": "Grid",
+		"scope": ""
+	},
+    "tent-grid:column": {
+		"prefix": "tent-grid:column",
+		"body": "\n<div class=\"grid__column\">\n\t$1\n</div>\n",
+		"description": "Column of a grid",
+		"scope": ""
+	},
 }
