@@ -1,0 +1,8 @@
+{
+    "tent-card": {
+		"prefix": "tent-card",
+		"body": "\n<div class=\"card\">\n\t<div class=\"card__content\">$1</div>\n</div>\n",
+		"description": "Card component",
+		"scope": ""
+	}
+}
