@@ -1,0 +1,19 @@
+{
+  "name": "tent-snippets-vsc",
+  "version": "1.0.0",
+  "description": "Tent CSS markup snippets for VS Code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sitetent/tent-snippets-vsc.git"
+  },
+  "author": "Aaron Mazade <ulinaaron@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sitetent/tent-snippets-vsc/issues"
+  },
+  "homepage": "https://github.com/sitetent/tent-snippets-vsc#readme"
+}
