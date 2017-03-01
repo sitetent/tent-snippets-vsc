@@ -7,18 +7,19 @@
     "url": "https://github.com/sitetent/tent-snippets-vsc.git"
   },
   "author": "Aaron Mazade <ulinaaron@gmail.com>",
-  "publisher": "ulinaaron",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sitetent/tent-snippets-vsc/issues"
   },
   "homepage": "https://github.com/sitetent/tent-snippets-vsc#readme",
+  "publisher": "ulinaaron",
+  "icon": "icon.png",
   "engines": {
 		"vscode": "^0.10.1"
 	},
 	"galleryBanner": {
 		"color": "#3d9970",
-		"theme": "light"
+		"theme": "dark"
 	},
 	"categories": [
 		"Snippets"
