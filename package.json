@@ -1,7 +1,7 @@
 {
     "name": "tent-snippets-vsc",
     "displayName": "Tent CSS Snippets",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Tent CSS markup snippets for VS Code.",
     "repository": {
         "type": "git",
