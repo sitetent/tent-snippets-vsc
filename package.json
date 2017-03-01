@@ -1,55 +1,56 @@
 {
-  "name": "tent-snippets-vsc",
-  "version": "1.0.0",
-  "description": "Tent CSS markup snippets for VS Code.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sitetent/tent-snippets-vsc.git"
-  },
-  "author": "Aaron Mazade <ulinaaron@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sitetent/tent-snippets-vsc/issues"
-  },
-  "homepage": "https://github.com/sitetent/tent-snippets-vsc#readme",
-  "publisher": "ulinaaron",
-  "icon": "icon.png",
-  "engines": {
-		"vscode": "^0.10.1"
-	},
-	"galleryBanner": {
-		"color": "#3d9970",
-		"theme": "dark"
-	},
-	"categories": [
-		"Snippets"
-	],
-	"contributes": {
-		"snippets": [
-			{
-				"language": "html",
-				"path": "./snippets/snippets.json"
-			},
-			{
-				"language": "handlebars",
-				"path": "./snippets/snippets.json"
-			},
-    			{
-				"language": "php",
-				"path": "./snippets/snippets.json"
- 			},
-			{
- 				"language": "ejs",
- 				"path": "./snippets/snippets.json"
- 			},
-			{
- 				"language": "tpl",
- 				"path": "./snippets/snippets.json"
- 			},
-			{
- 				"language": "erb",
- 				"path": "./snippets/snippets.json"
- 			}
-		]
-	}
+    "name": "tent-snippets-vsc",
+    "displayName": "Tent CSS Snippets",
+    "version": "1.0.1",
+    "description": "Tent CSS markup snippets for VS Code.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sitetent/tent-snippets-vsc.git"
+    },
+    "author": "Aaron Mazade <ulinaaron@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sitetent/tent-snippets-vsc/issues"
+    },
+    "homepage": "https://github.com/sitetent/tent-snippets-vsc#readme",
+    "publisher": "ulinaaron",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^0.10.1"
+    },
+    "galleryBanner": {
+        "color": "#3d9970",
+        "theme": "dark"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "handlebars",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "ejs",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "tpl",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "erb",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
 }
