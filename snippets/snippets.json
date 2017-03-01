@@ -1,38 +1,92 @@
 {
-    "tent-lead": {
-		"prefix": "tent-lead",
-		"body": "\n<p class=\"lead\">\n\t$1\n</p>\n",
-		"description": "Lead",
-		"scope": ""
-	},
-    "tent-card": {
-		"prefix": "tent-card",
-		"body": "\n<div class=\"card\">\n\t<div class=\"card__content\">$1</div>\n</div>\n",
-		"description": "Card component",
-		"scope": ""
-	},
-    "tent-grid": {
-		"prefix": "tent-grid",
-		"body": "\n<div class=\"grid\">\n\t$1\n</div>\n",
-		"description": "Grid",
-		"scope": ""
-	},
-    "tent-grid:column": {
-		"prefix": "tent-grid:column",
-		"body": "\n<div class=\"grid__column\">\n\t$1\n</div>\n",
-		"description": "Column of a grid",
-		"scope": ""
-	},
-    "tent-title-set": {
-		"prefix": "tent-title-set",
-		"body": "\n<div class=\"title-set\">\n\t$1\n</div>\n",
-		"description": "Title Set",
-		"scope": ""
-	},
-    "tent-title": {
-		"prefix": "tent-title",
-		"body": "\n<${1:h1} class=\"title title--${2:sm}\">\n\t$3\n</${1:h1}>\n",
-		"description": "Title",
-		"scope": ""
-	}
+  "tent-button:filled": {
+    "prefix": "tent-button:filled",
+    "body": "\n<a href=\"#\" class=\"button button--filled\">$1</a>\n",
+    "description": "Button Filled Style",
+    "scope": ""
+  },
+  "tent-button:outlined": {
+    "prefix": "tent-button:outlined",
+    "body": "\n<a href=\"#\" class=\"button button--outlined\">$1</a>\n",
+    "description": "Button Outlined Style",
+    "scope": ""
+  },
+  "tent-button:clear": {
+    "prefix": "tent-button:clear",
+    "body": "\n<a href=\"#\" class=\"button button--clear\">$1</a>\n",
+    "description": "Button Clear Style",
+    "scope": ""
+  },
+  "tent-lead": {
+    "prefix": "tent-lead",
+    "body": "\n<p class=\"lead\">\n\t$1\n</p>\n",
+    "description": "Lead",
+    "scope": ""
+  },
+  "tent-card": {
+    "prefix": "tent-card",
+    "body": "\n<div class=\"card\">\n\t<div class=\"card__content\">$1</div>\n</div>\n",
+    "description": "Card component",
+    "scope": ""
+  },
+  "tent-card:clear": {
+    "prefix": "tent-card:clear",
+    "body": "\n<div class=\"card card--clear\">\n\t<div class=\"card__content\">$1</div>\n</div>\n",
+    "description": "Card component - Clear modifier",
+    "scope": ""
+  },
+  "tent-form:example": {
+    "prefix": "tent-form:example",
+    "body": "<form>\r\n<div class=\"grid\">\r\n<div class=\"grid__column\">\r\n<div class=\"control control--block\">\r\n<label class=\"control__label\" for=\"exampleEmailInput\">Your email<\/label>\r\n<input class=\"control__input\" type=\"email\" placeholder=\"test@domain.com\" id=\"exampleEmailInput\">\r\n<\/div>\r\n<\/div>\r\n<div class=\"grid__column\">\r\n<label class=\"control__label\" for=\"exampleSelect\">What can we help you with?<\/label>\r\n<div class=\"control control--block control--select\">\r\n<select class=\"control__select\" id=\"exampleSelect\">\r\n<option value=\"Option 1\">Questions<\/option>\r\n<option value=\"Option 2\">Feedback<\/option>\r\n<\/select>\r\n<\/div>\r\n<\/div>\r\n<\/div>\r\n<div class=\"grid\">\r\n<div class=\"grid__column\">\r\n<div class=\"control control--block\">\r\n<label class=\"control__label\" for=\"exampleMessage\">Message<\/label>\r\n<textarea class=\"control__textarea control__textarea--md\" placeholder=\"Type your message here...\" id=\"exampleMessage\"><\/textarea>\r\n<\/div>\r\n<\/div>\r\n<\/div>\r\n<div class=\"grid\">\r\n<div class=\"grid__column\">\r\n\r\n<div class=\"control control--checkbox\">\r\n<label class=\"control__label\" class=\"checkbox\">\r\n<input class=\"control__checkbox\" type=\"checkbox\">\r\nA checkbox\r\n<\/label>\r\n<\/div>\r\n<div class=\"control control--radio\">\r\n<label class=\"control__label\">\r\n<input class=\"control__radio\" type=\"radio\" name=\"question\">\r\nOne radio example\r\n<\/label>\r\n<label class=\"control__label\">\r\n<input class=\"control__radio\" type=\"radio\" name=\"question\">\r\nSecond radio example\r\n<\/label>\r\n<\/div>\r\n\r\n<\/div>\r\n<\/div>\r\n<div class=\"grid\">\r\n<div class=\"grid__column\">\r\n<div class=\"control control--block\">\r\n<input class=\"control__button button button--filled button--primary\" type=\"submit\" value=\"Submit\">\r\n<\/div>\r\n<\/div>\r\n<\/div>\r\n<\/form>",
+    "description": "Form Example",
+    "scope": ""
+  },
+  "tent-form:control-set": {
+    "prefix": "tent-form:control-set",
+    "body": "\n<div class=\"control\">\r\n<label for=\"exampleField1\" class=\"control__label\"><\/label>\r\n<input class=\"control__input\" type=\"text\" id=\"exampleField1\">\r\n<\/div>\r\n",
+    "description": "Form Control Set",
+    "scope": ""
+  },
+  "tent-grid": {
+    "prefix": "tent-grid",
+    "body": "\n<div class=\"grid\">\n\t$1\n</div>\n",
+    "description": "Grid",
+    "scope": ""
+  },
+  "tent-unordered-list": {
+    "prefix": "tent-unordered-list",
+    "body": "\n<ul class=\"list\">\n\t<li class=\"list__item\">$1</li>\n</ul>\n",
+    "description": "Unordered List",
+    "scope": ""
+  },
+  "tent-unordered-list:unstyled": {
+    "prefix": "tent-unordered-list:unstyled",
+    "body": "\n<ul class=\"list list--unstyled\">\n\t<li class=\"list__item\">$1</li>\n</ul>\n",
+    "description": "Unordered List - Unstyled modifier",
+    "scope": ""
+  },
+  "tent-unordered-list:nulled": {
+    "prefix": "tent-unordered-list:nulled",
+    "body": "\n<ul class=\"list list--nulled\">\n\t<li class=\"list__item\">$1</li>\n</ul>\n",
+    "description": "Unordered List - Nulled modifier",
+    "scope": ""
+  },
+  "tent-grid:column": {
+    "prefix": "tent-grid:column",
+    "body": "\n<div class=\"grid__column\">\n\t$1\n</div>\n",
+    "description": "Column of a grid",
+    "scope": ""
+  },
+  "tent-title-set": {
+    "prefix": "tent-title-set",
+    "body": "\n<div class=\"title-set\">\n\t$1\n</div>\n",
+    "description": "Title Set",
+    "scope": ""
+  },
+  "tent-title": {
+    "prefix": "tent-title",
+    "body": "\n<${1:h1} class=\"title title--${2:sm}\">\n\t$3\n</${1:h1}>\n",
+    "description": "Title",
+    "scope": ""
+  }
 }
