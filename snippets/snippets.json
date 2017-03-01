@@ -1,4 +1,10 @@
 {
+    "tent-lead": {
+		"prefix": "tent-lead",
+		"body": "\n<p class=\"lead\">\n\t$1\n</p>\n",
+		"description": "Lead",
+		"scope": ""
+	},
     "tent-card": {
 		"prefix": "tent-card",
 		"body": "\n<div class=\"card\">\n\t<div class=\"card__content\">$1</div>\n</div>\n",
@@ -17,4 +23,16 @@
 		"description": "Column of a grid",
 		"scope": ""
 	},
+    "tent-title-set": {
+		"prefix": "tent-title-set",
+		"body": "\n<div class=\"title-set\">\n\t$1\n</div>\n",
+		"description": "Title Set",
+		"scope": ""
+	},
+    "tent-title": {
+		"prefix": "tent-title",
+		"body": "\n<${1:h1} class=\"title title--${2:sm}\">\n\t$3\n</${1:h1}>\n",
+		"description": "Title",
+		"scope": ""
+	}
 }
